@@ -30,9 +30,9 @@ export default async function Home() {
           </div>
 
           <div className="flex items-center bg-white w-32 h-12 rounded-3xl text-center justify-center">
-            <a href="https://open.spotify.com" className="flex text-black font-bold text-sm">Main menu</a>
+            <a href="https://open.spotify.com/intl-tr/track/4obIxphItouERQevAwbPfx" className="flex text-black font-bold text-sm">Main menu</a>
           </div>
-          <a href="https://open.spotify.com" className="flex text-white font-bold text-sm mt-10">Help</a>
+          <a href="https://open.spotify.com/intl-tr/track/4obIxphItouERQevAwbPfx" className="flex text-white font-bold text-sm mt-10">Help</a>
           <MyPage/>
       </div>
     </main>
