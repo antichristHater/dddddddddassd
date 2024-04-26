@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sol Invictus",
+  title: "Leading Streaming Platform",
   description: "open.spotify.com",
-  icons: 'icon.ico'
+  icons: './sol.ico'
 };
 
 export default function RootLayout({
