@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Sol Invictus",
   description: "open.spotify.com",
+  icons: 'icon.ico'
 };
 
 export default function RootLayout({
