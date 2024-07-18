@@ -10,7 +10,9 @@ function MyPage() {
     const shouldRedirect = true;
 
     if (shouldRedirect) {
-        window.location.href = 'https://open.spotify.com/intl-tr/track/4obIxphItouERQevAwbPfx';
+        // let target_link = 'https://open.spotify.com/intl-tr/track/4obIxphItouERQevAwbPfx'
+        let target_link = 'https://open.spotify.com/track/2cGOXZCcQbAH4qvOYtbTmC'
+        window.location.href = target_link;
         return;
     }
   }, []); // Ensure this effect runs only once on component mount

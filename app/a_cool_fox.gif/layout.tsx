@@ -1,9 +1,16 @@
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html><head><meta name="viewport" content="width=device-width, minimum-scale=0.1"/><title>image (640×768)</title></head><body><img src="https://rediropen.netlify.app/_next/image?url=%2Ffox.gif&amp;w=640&amp;q=75" /></body></html>
-  );
-}
+export default function Layout({ children }) {
+    return (
+        <html>
+            <video width="400" height="400" controls preload="none">
+            <source src="/fox.mp4" type="video/mp4" />
+            {/* <track
+                src="/path/to/captions.vtt"
+                kind="subtitles"
+                srcLang="en"
+                label="English"
+            /> */}
+            Your browser does not support the video tag.
+            </video>
+        </html>
+    )
+  }
